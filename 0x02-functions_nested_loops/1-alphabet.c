@@ -3,9 +3,9 @@
 /**
   * print_alphabet -prints the alph in lowercase
   */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	char la:
+	char la;
 
 	for (la = 'a'; la <= 'z'; la++)
 		_putchar(la);
